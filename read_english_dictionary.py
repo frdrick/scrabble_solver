@@ -2,11 +2,11 @@
 import json
 from random import sample
 
-f = open('data/words_dictionary.json')
+f = open('data/scrabble_dictionary.json')
 
 d = json.load(f)
 
-# print(d)
-
 print(d)
-# hello
+
+# print(list(d)[0:100])
+# print('goodbye' in d)
